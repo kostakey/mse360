@@ -1,0 +1,43 @@
+\documentclass[portrait]{a0poster}
+% Note: if package conflicts occur, try importing them before triumfposter
+\usepackage{triumfposter}
+
+% for example text in columns
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{multicol}
+\columnsep=60pt % spacing between columns
+\columnseprule=0pt % vertical line between columns
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+
+\usepackage{hyperref}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{sources.bib}
+
+\title{Conversion Coatings on Non-Ferrous Metals}
+  % \veryHuge \\ And I Can Also Have a Subtitle -- Smaller Font Possible \\}
+
+% Single Affiliation
+% \author{T.~Author1, T.~Author2, and T.~Author3\\TRIUMF, Vancouver, BC, Canada}
+
+% Multiple Affiliations
+\author[1]{Kosta Sergakis}
+% \author[2]{V.~Author2}
+% \author[1]{T.~Author3}
+% \author[1,2]{T.V.~Author4}
+\affil[1]{Michigan State University, East Lansing, Michigan}
+% \affil[2]{University of Victoria, Victoria, BC, Canada}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\darkheader
+
+\begin{multicols}{2}
+\large
+
+
+\end{multicols}
+
+\end{document}
